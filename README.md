@@ -37,51 +37,34 @@ This is a C# OOP Bank Management System designed with a professional 3-layer arc
 
 ---
 
-## 🎮 Usage
+## 🎮 How to Use
 
-On startup, a login screen appears:
-
-```
----------------------------------
-        Login Screen
----------------------------------
-Enter Username? Admin
-Enter Password? ****
-```
-
-Once logged in, navigate the main menu:
-
-```
-===========================================
-            Main Menu Screen
-===========================================
-    [1] Show Client List.
-    [2] Add New Client.
-    [3] Delete Client.
-    [4] Update Client Info.
-    [5] Find Client.
-    [6] Transactions.
-    [7] Manage Users.
-    [8] Logout.
-===========================================
-```
-
-Selecting **Transactions** opens a sub-menu:
-
-```
-===========================================
-        Transactions Menu Screen
-===========================================
-    [1] Deposit.
-    [2] Withdraw.
-    [3] Transfer.
-    [4] Total Balances.
-    [5] Transfer Log.
-    [6] Main Menu.
-===========================================
-```
-
-> Access to each option depends on the logged-in user's assigned permissions.
+1. Run the application — a **Login Screen** appears first.
+2. Enter your username and password to authenticate.
+3. Choose an option from the **Main Menu** (options visible based on your permissions):
+   - `1` Show Client List
+   - `2` Add New Client
+   - `3` Delete Client
+   - `4` Update Client Info
+   - `5` Find Client
+   - `6` Transactions
+   - `7` Manage Users
+   - `8` Logout
+4. If you select **Transactions**, a sub-menu appears:
+   - `1` Deposit
+   - `2` Withdraw
+   - `3` Transfer
+   - `4` Total Balances
+   - `5` Transfer Log
+   - `6` Back to Main Menu
+5. If you select **Manage Users**, a sub-menu appears:
+   - `1` List Users
+   - `2` Add New User
+   - `3` Delete User
+   - `4` Update User
+   - `5` Find User
+   - `6` Back to Main Menu
+6. Press any key to return to the previous menu after each action.
 
 ---
 
