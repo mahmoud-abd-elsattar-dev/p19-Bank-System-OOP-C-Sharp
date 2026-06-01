@@ -24,6 +24,67 @@ This is a C# OOP Bank Management System designed with a professional 3-layer arc
 
 ---
 
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|---|---|
+| Language | C# (.NET) |
+| Architecture | 3-Layer (Data / Business / Console) |
+| Database | SQL Server |
+| Data Access | ADO.NET (`SqlConnection`, `SqlCommand`, `SqlDataReader`) |
+| DB Diagram | Draw.io (`Bank.drawio`) |
+| IDE | Visual Studio 2022+ |
+
+---
+
+## 🎮 Usage
+
+On startup, a login screen appears:
+
+```
+---------------------------------
+        Login Screen
+---------------------------------
+Enter Username? Admin
+Enter Password? ****
+```
+
+Once logged in, navigate the main menu:
+
+```
+===========================================
+            Main Menu Screen
+===========================================
+    [1] Show Client List.
+    [2] Add New Client.
+    [3] Delete Client.
+    [4] Update Client Info.
+    [5] Find Client.
+    [6] Transactions.
+    [7] Manage Users.
+    [8] Logout.
+===========================================
+```
+
+Selecting **Transactions** opens a sub-menu:
+
+```
+===========================================
+        Transactions Menu Screen
+===========================================
+    [1] Deposit.
+    [2] Withdraw.
+    [3] Transfer.
+    [4] Total Balances.
+    [5] Transfer Log.
+    [6] Main Menu.
+===========================================
+```
+
+> Access to each option depends on the logged-in user's assigned permissions.
+
+---
+
 ## 🏗️ Project Structure
 
 ```
